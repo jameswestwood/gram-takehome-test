@@ -1,4 +1,4 @@
-﻿using UnityEditor.Experimental.UIElements.GraphView;
+﻿using UnityEditor.Experimental.GraphView;
 
 public class GraphNode : Node
 {

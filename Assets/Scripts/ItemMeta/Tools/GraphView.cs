@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using GramGames.CraftingSystem.DataContainers;
+using UnityEditor.Experimental.GraphView;
 using UnityEditor.Experimental.UIElements;
 using UnityEditor.Experimental.UIElements.GraphView;
+using UnityEditor.UIElements;
 using UnityEngine;
-using UnityEngine.Experimental.UIElements;
+using UnityEngine.UIElements;
 
-public class GraphView : UnityEditor.Experimental.UIElements.GraphView.GraphView
+public class GraphView : UnityEditor.Experimental.GraphView.GraphView
 {
     
     public readonly Vector2 defaultNodeSize = new Vector2(150, 200);

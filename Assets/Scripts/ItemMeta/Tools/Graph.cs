@@ -1,10 +1,9 @@
 ﻿using GramGames.CraftingSystem.DataContainers;
 using GramGames.CraftingSystem.Editor;
 using UnityEditor;
-using UnityEditor.Experimental.UIElements;
-using UnityEditor.Experimental.UIElements.GraphView;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
-using UnityEngine.Experimental.UIElements;
+using UnityEngine.UIElements;
 
 public class Graph : EditorWindow
 {
@@ -51,7 +50,7 @@ public class Graph : EditorWindow
 
 	private void OnDisable()
 	{
-		this.GetRootVisualContainer().Remove(_graphView);
+		rootVisualElement.Remove(_graphView);
 	}
 
 	private void ConstructGraphView()
@@ -62,12 +61,12 @@ public class Graph : EditorWindow
 		};
 
 		_graphView.StretchToParentSize();
-		this.GetRootVisualContainer().Add(_graphView);
+		rootVisualElement.Add(_graphView);
 	}
 
 	private void GenerateToolbar()
 	{
-		var toolbar = new Toolbar();
+		var toolbar = new UnityEditor.UIElements.Toolbar();
 		toolbar.style.height = 20;
 
 		toolbar.Add(new Button(SaveOperation) {text = "Save Data"});
@@ -104,7 +103,7 @@ public class Graph : EditorWindow
 		clearGraphButton.text = "Clear Graph";
 		toolbar.Add(clearGraphButton);
 
-		this.GetRootVisualContainer().Add(toolbar);
+		rootVisualElement.Add(toolbar);
 	}
 
 	private void GenerateMinimap()

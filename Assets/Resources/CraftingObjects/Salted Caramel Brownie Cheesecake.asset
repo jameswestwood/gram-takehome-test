@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b20760b2c12446f89a1160103f53684, type: 3}
+  m_Name: Salted Caramel Brownie Cheesecake
+  m_EditorClassIdentifier: 
+  MainNodeData:
+    NodeGUID: edaea295-f390-430a-872d-1faeed0894fd
+    NodeText: Salted Caramel Brownie Cheesecake
+    Position: {x: 8.677491, y: 28.677504}
+    Sprite: {fileID: 21300000, guid: bed5b88b87da749f6baba37e3a63e68b, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  NodeLinks:
+  - BaseNodeGUID: edaea295-f390-430a-872d-1faeed0894fd
+    PortName: Ingredient 1
+    TargetNodeGUID: 1fa86bbb-7dac-4871-b029-657786483e27
+    Count: 10
+  - BaseNodeGUID: edaea295-f390-430a-872d-1faeed0894fd
+    PortName: Ingredient 2
+    TargetNodeGUID: 800109f5-4d6f-4efe-a295-47cbd4913488
+    Count: 8
+  - BaseNodeGUID: edaea295-f390-430a-872d-1faeed0894fd
+    PortName: Ingredient 3
+    TargetNodeGUID: 7d973a42-912a-4a1d-ab2c-1ffd1879de82
+    Count: 5
+  - BaseNodeGUID: edaea295-f390-430a-872d-1faeed0894fd
+    PortName: Ingredient 4
+    TargetNodeGUID: e6b384c2-8096-4a00-bcee-a730020c5211
+    Count: 16
+  - BaseNodeGUID: edaea295-f390-430a-872d-1faeed0894fd
+    PortName: Ingredient 5
+    TargetNodeGUID: 5bffb60a-79c0-4f50-b4b3-244fff96365a
+    Count: 12
+  - BaseNodeGUID: edaea295-f390-430a-872d-1faeed0894fd
+    PortName: Ingredient 6
+    TargetNodeGUID: 6200b2ad-285b-4119-bb70-228c5551dba9
+    Count: 8
+  NodeData:
+  - NodeGUID: edaea295-f390-430a-872d-1faeed0894fd
+    NodeText: Salted Caramel Brownie Cheesecake
+    Position: {x: 8.677491, y: 28.677504}
+    Sprite: {fileID: 21300000, guid: bed5b88b87da749f6baba37e3a63e68b, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  - NodeGUID: 1fa86bbb-7dac-4871-b029-657786483e27
+    NodeText: Choco
+    Position: {x: 460, y: 22}
+    Sprite: {fileID: 21300000, guid: 55ed2d513d12c4f58bee8bc07ccf0e1c, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  - NodeGUID: 800109f5-4d6f-4efe-a295-47cbd4913488
+    NodeText: Cheese
+    Position: {x: 447.8, y: 27}
+    Sprite: {fileID: 21300000, guid: 5ac90aac8b33049999e40e2cf41d5af4, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  - NodeGUID: 7d973a42-912a-4a1d-ab2c-1ffd1879de82
+    NodeText: Flour
+    Position: {x: 487, y: 324}
+    Sprite: {fileID: 21300000, guid: 32d35464e701b4056856ae9805a0718a, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  - NodeGUID: e6b384c2-8096-4a00-bcee-a730020c5211
+    NodeText: Salt
+    Position: {x: 729, y: 401.00006}
+    Sprite: {fileID: 21300000, guid: 7f168cd4e84b64fe6a5a48043917d867, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  - NodeGUID: 5bffb60a-79c0-4f50-b4b3-244fff96365a
+    NodeText: Robin Egg
+    Position: {x: 497, y: 472.76}
+    Sprite: {fileID: 21300000, guid: 310d8c1c8a16e414a9a1af72f96292fe, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  - NodeGUID: 6200b2ad-285b-4119-bb70-228c5551dba9
+    NodeText: Hazelnut
+    Position: {x: 737, y: 552.9575}
+    Sprite: {fileID: 21300000, guid: 10a82b2a22d0446c789834ceeacc14b4, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 

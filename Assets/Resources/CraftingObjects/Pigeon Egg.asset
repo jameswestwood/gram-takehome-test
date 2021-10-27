@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b20760b2c12446f89a1160103f53684, type: 3}
+  m_Name: Pigeon Egg
+  m_EditorClassIdentifier: 
+  MainNodeData:
+    NodeGUID: 0b3c37ff-b217-4f18-9282-faa9e022f1d3
+    NodeText: Pigeon Egg
+    Position: {x: 479.00003, y: 491.31747}
+    Sprite: {fileID: 21300000, guid: e386218b34ded4e68bbe7a448f24c9b2, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  NodeLinks: []
+  NodeData:
+  - NodeGUID: 0b3c37ff-b217-4f18-9282-faa9e022f1d3
+    NodeText: Pigeon Egg
+    Position: {x: 479.00003, y: 491.31747}
+    Sprite: {fileID: 21300000, guid: e386218b34ded4e68bbe7a448f24c9b2, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 

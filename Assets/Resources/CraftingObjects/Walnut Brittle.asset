@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b20760b2c12446f89a1160103f53684, type: 3}
+  m_Name: Walnut Brittle
+  m_EditorClassIdentifier: 
+  MainNodeData:
+    NodeGUID: c908f54e-6484-4a49-89a9-7c13ca4d638b
+    NodeText: Walnut Brittle
+    Position: {x: 10, y: 30}
+    Sprite: {fileID: 21300000, guid: bed5b88b87da749f6baba37e3a63e68b, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  NodeLinks:
+  - BaseNodeGUID: c908f54e-6484-4a49-89a9-7c13ca4d638b
+    PortName: Ingredient 1
+    TargetNodeGUID: baefab38-a911-46a4-9116-da2e96001cf3
+    Count: 1
+  - BaseNodeGUID: c908f54e-6484-4a49-89a9-7c13ca4d638b
+    PortName: Ingredient 2
+    TargetNodeGUID: 31650a42-c73f-480e-bca2-610da7f7d380
+    Count: 1
+  NodeData:
+  - NodeGUID: c908f54e-6484-4a49-89a9-7c13ca4d638b
+    NodeText: Walnut Brittle
+    Position: {x: 10, y: 30}
+    Sprite: {fileID: 21300000, guid: bed5b88b87da749f6baba37e3a63e68b, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  - NodeGUID: baefab38-a911-46a4-9116-da2e96001cf3
+    NodeText: Maple Sryup
+    Position: {x: 492.92, y: 107.44}
+    Sprite: {fileID: 21300000, guid: fdb4b64ac50574813b30212db2775fe0, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  - NodeGUID: 31650a42-c73f-480e-bca2-610da7f7d380
+    NodeText: Walnut
+    Position: {x: 493.03998, y: -60.320007}
+    Sprite: {fileID: 21300000, guid: 3d8cc9cbc5a8e4747a7c3fb596e3435d, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 

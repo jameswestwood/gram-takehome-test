@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b20760b2c12446f89a1160103f53684, type: 3}
+  m_Name: Wood
+  m_EditorClassIdentifier: 
+  MainNodeData:
+    NodeGUID: 10525130-8a4f-4656-8738-decdcf05c559
+    NodeText: Wood
+    Position: {x: 1640.8906, y: 245.44122}
+    Sprite: {fileID: 21300000, guid: ae87c23f29a2f44ea9d546e7656706c1, type: 3}
+    Type: 4
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: Cut of tree
+  NodeLinks: []
+  NodeData:
+  - NodeGUID: 10525130-8a4f-4656-8738-decdcf05c559
+    NodeText: Wood
+    Position: {x: 1640.8906, y: 245.44122}
+    Sprite: {fileID: 21300000, guid: ae87c23f29a2f44ea9d546e7656706c1, type: 3}
+    Type: 4
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: Cut of tree

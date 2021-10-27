@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b20760b2c12446f89a1160103f53684, type: 3}
+  m_Name: Poppyseed
+  m_EditorClassIdentifier: 
+  MainNodeData:
+    NodeGUID: 66dcc4fe-e286-4b50-827d-19e8d9394cc3
+    NodeText: Poppyseed
+    Position: {x: 481, y: 633.5575}
+    Sprite: {fileID: 21300000, guid: 962b55fc8f3744e49a473c7d19521916, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  NodeLinks: []
+  NodeData:
+  - NodeGUID: 66dcc4fe-e286-4b50-827d-19e8d9394cc3
+    NodeText: Poppyseed
+    Position: {x: 481, y: 633.5575}
+    Sprite: {fileID: 21300000, guid: 962b55fc8f3744e49a473c7d19521916, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 

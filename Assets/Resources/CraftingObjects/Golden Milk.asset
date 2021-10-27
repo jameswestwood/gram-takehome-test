@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b20760b2c12446f89a1160103f53684, type: 3}
+  m_Name: Golden Milk
+  m_EditorClassIdentifier: 
+  MainNodeData:
+    NodeGUID: 752e6e62-b18b-4da7-906c-70438f062fe9
+    NodeText: Golden Milk
+    Position: {x: 9.99999, y: 30.000002}
+    Sprite: {fileID: 21300000, guid: 2c45993d7a8cf4b0cb7e6334268493f9, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  NodeLinks:
+  - BaseNodeGUID: 752e6e62-b18b-4da7-906c-70438f062fe9
+    PortName: Ingredient 1
+    TargetNodeGUID: a32a0f31-7d42-4a73-b2f8-452bd0e55b2d
+    Count: 4
+  - BaseNodeGUID: 752e6e62-b18b-4da7-906c-70438f062fe9
+    PortName: Ingredient 2
+    TargetNodeGUID: 27989921-f372-42da-8a15-425bef3d5266
+    Count: 3
+  - BaseNodeGUID: 752e6e62-b18b-4da7-906c-70438f062fe9
+    PortName: Ingredient 3
+    TargetNodeGUID: 2ff58f8d-2881-4458-bc57-74c88682fe67
+    Count: 1
+  NodeData:
+  - NodeGUID: 752e6e62-b18b-4da7-906c-70438f062fe9
+    NodeText: Golden Milk
+    Position: {x: 9.99999, y: 30.000002}
+    Sprite: {fileID: 21300000, guid: 2c45993d7a8cf4b0cb7e6334268493f9, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  - NodeGUID: a32a0f31-7d42-4a73-b2f8-452bd0e55b2d
+    NodeText: Maple Sugar
+    Position: {x: 457, y: 183}
+    Sprite: {fileID: 21300000, guid: f49c9aba85dd94c2486c14e0292def22, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  - NodeGUID: 27989921-f372-42da-8a15-425bef3d5266
+    NodeText: Milk
+    Position: {x: 763.7901, y: 309.06506}
+    Sprite: {fileID: 21300000, guid: 0b6be8224529240e39dddabc414df00c, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  - NodeGUID: 2ff58f8d-2881-4458-bc57-74c88682fe67
+    NodeText: Turmeric
+    Position: {x: 589, y: 367}
+    Sprite: {fileID: 21300000, guid: 0b3bd8f2c8bf5433da47d4df2e7d31c0, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 

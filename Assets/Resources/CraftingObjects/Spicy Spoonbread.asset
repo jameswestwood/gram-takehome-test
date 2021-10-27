@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b20760b2c12446f89a1160103f53684, type: 3}
+  m_Name: Spicy Spoonbread
+  m_EditorClassIdentifier: 
+  MainNodeData:
+    NodeGUID: 311d8557-b65a-4c76-8cea-96270bbf076e
+    NodeText: Spicy Spoonbread
+    Position: {x: 10, y: 30}
+    Sprite: {fileID: 21300000, guid: b3cb3a14b7c2e4e07a5940835d089957, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  NodeLinks:
+  - BaseNodeGUID: 311d8557-b65a-4c76-8cea-96270bbf076e
+    PortName: Ingredient 1
+    TargetNodeGUID: 800109f5-4d6f-4efe-a295-47cbd4913488
+    Count: 8
+  - BaseNodeGUID: 311d8557-b65a-4c76-8cea-96270bbf076e
+    PortName: Ingredient 2
+    TargetNodeGUID: a32a0f31-7d42-4a73-b2f8-452bd0e55b2d
+    Count: 6
+  - BaseNodeGUID: 311d8557-b65a-4c76-8cea-96270bbf076e
+    PortName: Ingredient 3
+    TargetNodeGUID: 4a566cf3-bfb0-4f68-b9ed-2fe29f2ed9fb
+    Count: 4
+  - BaseNodeGUID: 311d8557-b65a-4c76-8cea-96270bbf076e
+    PortName: Ingredient 4
+    TargetNodeGUID: 0b3c37ff-b217-4f18-9282-faa9e022f1d3
+    Count: 13
+  - BaseNodeGUID: 311d8557-b65a-4c76-8cea-96270bbf076e
+    PortName: Ingredient 5
+    TargetNodeGUID: 6a57f0ae-870f-482d-ae5c-8b9dbefe1f63
+    Count: 10
+  NodeData:
+  - NodeGUID: 311d8557-b65a-4c76-8cea-96270bbf076e
+    NodeText: Spicy Spoonbread
+    Position: {x: 10, y: 30}
+    Sprite: {fileID: 21300000, guid: b3cb3a14b7c2e4e07a5940835d089957, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  - NodeGUID: 800109f5-4d6f-4efe-a295-47cbd4913488
+    NodeText: Cheese
+    Position: {x: 447.8, y: 27}
+    Sprite: {fileID: 21300000, guid: 5ac90aac8b33049999e40e2cf41d5af4, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  - NodeGUID: a32a0f31-7d42-4a73-b2f8-452bd0e55b2d
+    NodeText: Maple Sugar
+    Position: {x: 457, y: 183}
+    Sprite: {fileID: 21300000, guid: f49c9aba85dd94c2486c14e0292def22, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  - NodeGUID: 4a566cf3-bfb0-4f68-b9ed-2fe29f2ed9fb
+    NodeText: Cracked Wheat
+    Position: {x: 466, y: 338}
+    Sprite: {fileID: 21300000, guid: d8009fe0001a941d6bdd1ee9115e2882, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  - NodeGUID: 0b3c37ff-b217-4f18-9282-faa9e022f1d3
+    NodeText: Pigeon Egg
+    Position: {x: 479.00003, y: 491.31747}
+    Sprite: {fileID: 21300000, guid: e386218b34ded4e68bbe7a448f24c9b2, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  - NodeGUID: 6a57f0ae-870f-482d-ae5c-8b9dbefe1f63
+    NodeText: Chili
+    Position: {x: 292.5481, y: 606.4082}
+    Sprite: {fileID: 21300000, guid: 03a5fa55780ad49809db0b915138d69c, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 

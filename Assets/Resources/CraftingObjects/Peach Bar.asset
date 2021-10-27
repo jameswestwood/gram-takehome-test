@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b20760b2c12446f89a1160103f53684, type: 3}
+  m_Name: Peach Bar
+  m_EditorClassIdentifier: 
+  MainNodeData:
+    NodeGUID: b8a824a6-8869-4f18-a50c-0894431b6767
+    NodeText: Peach Bar
+    Position: {x: 10, y: 30}
+    Sprite: {fileID: 21300000, guid: a870ceb571f654980be0bb575b9111a0, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  NodeLinks:
+  - BaseNodeGUID: b8a824a6-8869-4f18-a50c-0894431b6767
+    PortName: Ingredient 1
+    TargetNodeGUID: 4a566cf3-bfb0-4f68-b9ed-2fe29f2ed9fb
+    Count: 1
+  - BaseNodeGUID: b8a824a6-8869-4f18-a50c-0894431b6767
+    PortName: Ingredient 2
+    TargetNodeGUID: 0135b123-b72d-4761-bd77-afde0b8b7b14
+    Count: 2
+  NodeData:
+  - NodeGUID: b8a824a6-8869-4f18-a50c-0894431b6767
+    NodeText: Peach Bar
+    Position: {x: 10, y: 30}
+    Sprite: {fileID: 21300000, guid: a870ceb571f654980be0bb575b9111a0, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  - NodeGUID: 4a566cf3-bfb0-4f68-b9ed-2fe29f2ed9fb
+    NodeText: Cracked Wheat
+    Position: {x: 466, y: 338}
+    Sprite: {fileID: 21300000, guid: d8009fe0001a941d6bdd1ee9115e2882, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  - NodeGUID: 0135b123-b72d-4761-bd77-afde0b8b7b14
+    NodeText: Peach
+    Position: {x: 580, y: 157}
+    Sprite: {fileID: 21300000, guid: e98839eb812c44fee867f146733d9fb2, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 

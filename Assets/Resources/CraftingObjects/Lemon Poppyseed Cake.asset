@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b20760b2c12446f89a1160103f53684, type: 3}
+  m_Name: Lemon Poppyseed Cake
+  m_EditorClassIdentifier: 
+  MainNodeData:
+    NodeGUID: ce16f8e2-e7a9-4629-b3cc-7aba5f127f68
+    NodeText: Lemon Poppyseed Cake
+    Position: {x: 10, y: 30}
+    Sprite: {fileID: 21300000, guid: 20fe059376e9e4c7589bcbd443e6729d, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  NodeLinks:
+  - BaseNodeGUID: ce16f8e2-e7a9-4629-b3cc-7aba5f127f68
+    PortName: Ingredient 1
+    TargetNodeGUID: a32a0f31-7d42-4a73-b2f8-452bd0e55b2d
+    Count: 10
+  - BaseNodeGUID: ce16f8e2-e7a9-4629-b3cc-7aba5f127f68
+    PortName: Ingredient 2
+    TargetNodeGUID: 7d973a42-912a-4a1d-ab2c-1ffd1879de82
+    Count: 7
+  - BaseNodeGUID: ce16f8e2-e7a9-4629-b3cc-7aba5f127f68
+    PortName: Ingredient 3
+    TargetNodeGUID: b1da10e7-4726-48f7-83cc-1b6960f9a1f0
+    Count: 5
+  - BaseNodeGUID: ce16f8e2-e7a9-4629-b3cc-7aba5f127f68
+    PortName: Ingredient 4
+    TargetNodeGUID: 306b7fc4-25ea-443e-8236-28a2a7fb6b42
+    Count: 14
+  - BaseNodeGUID: ce16f8e2-e7a9-4629-b3cc-7aba5f127f68
+    PortName: Ingredient 5
+    TargetNodeGUID: 66dcc4fe-e286-4b50-827d-19e8d9394cc3
+    Count: 11
+  NodeData:
+  - NodeGUID: ce16f8e2-e7a9-4629-b3cc-7aba5f127f68
+    NodeText: Lemon Poppyseed Cake
+    Position: {x: 10, y: 30}
+    Sprite: {fileID: 21300000, guid: 20fe059376e9e4c7589bcbd443e6729d, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  - NodeGUID: a32a0f31-7d42-4a73-b2f8-452bd0e55b2d
+    NodeText: Maple Sugar
+    Position: {x: 457, y: 183}
+    Sprite: {fileID: 21300000, guid: f49c9aba85dd94c2486c14e0292def22, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  - NodeGUID: 7d973a42-912a-4a1d-ab2c-1ffd1879de82
+    NodeText: Flour
+    Position: {x: 487, y: 324}
+    Sprite: {fileID: 21300000, guid: 32d35464e701b4056856ae9805a0718a, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  - NodeGUID: b1da10e7-4726-48f7-83cc-1b6960f9a1f0
+    NodeText: Butter
+    Position: {x: 646.4, y: 275}
+    Sprite: {fileID: 21300000, guid: 79cf71719fcbe4654a6adfeb50c54d24, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  - NodeGUID: 306b7fc4-25ea-443e-8236-28a2a7fb6b42
+    NodeText: Lemon
+    Position: {x: 476.32254, y: 472.35498}
+    Sprite: {fileID: 21300000, guid: 8b646306e4f334bd68cb6cf1037c8f2a, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  - NodeGUID: 66dcc4fe-e286-4b50-827d-19e8d9394cc3
+    NodeText: Poppyseed
+    Position: {x: 481, y: 633.5575}
+    Sprite: {fileID: 21300000, guid: 962b55fc8f3744e49a473c7d19521916, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 

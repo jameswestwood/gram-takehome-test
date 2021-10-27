@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b20760b2c12446f89a1160103f53684, type: 3}
+  m_Name: Giant Berry Crepe
+  m_EditorClassIdentifier: 
+  MainNodeData:
+    NodeGUID: 03488da6-280a-4694-88e0-cd004be021bf
+    NodeText: Giant Berry Crepe
+    Position: {x: 10, y: 30}
+    Sprite: {fileID: 21300000, guid: 591f158d137c842ca8c483e73afdfb4d, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  NodeLinks:
+  - BaseNodeGUID: 03488da6-280a-4694-88e0-cd004be021bf
+    PortName: Ingredient 1
+    TargetNodeGUID: 7d973a42-912a-4a1d-ab2c-1ffd1879de82
+    Count: 5
+  - BaseNodeGUID: 03488da6-280a-4694-88e0-cd004be021bf
+    PortName: Ingredient 2
+    TargetNodeGUID: baefab38-a911-46a4-9116-da2e96001cf3
+    Count: 4
+  - BaseNodeGUID: 03488da6-280a-4694-88e0-cd004be021bf
+    PortName: Ingredient 3
+    TargetNodeGUID: f92c06ce-5e63-402f-b4be-5d96e4cec7e7
+    Count: 8
+  - BaseNodeGUID: 03488da6-280a-4694-88e0-cd004be021bf
+    PortName: Ingredient 4
+    TargetNodeGUID: 9ccec8ef-9dac-4a50-95fb-94bb7b83695c
+    Count: 6
+  NodeData:
+  - NodeGUID: 03488da6-280a-4694-88e0-cd004be021bf
+    NodeText: Giant Berry Crepe
+    Position: {x: 10, y: 30}
+    Sprite: {fileID: 21300000, guid: 591f158d137c842ca8c483e73afdfb4d, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  - NodeGUID: 7d973a42-912a-4a1d-ab2c-1ffd1879de82
+    NodeText: Flour
+    Position: {x: 487, y: 324}
+    Sprite: {fileID: 21300000, guid: 32d35464e701b4056856ae9805a0718a, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  - NodeGUID: baefab38-a911-46a4-9116-da2e96001cf3
+    NodeText: Maple Sryup
+    Position: {x: 492.92, y: 107.44}
+    Sprite: {fileID: 21300000, guid: fdb4b64ac50574813b30212db2775fe0, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  - NodeGUID: f92c06ce-5e63-402f-b4be-5d96e4cec7e7
+    NodeText: Ostrich Egg
+    Position: {x: 719.4625, y: 362.16254}
+    Sprite: {fileID: 21300000, guid: a0a16aebb77324e53bb62f5f87f1d52c, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  - NodeGUID: 9ccec8ef-9dac-4a50-95fb-94bb7b83695c
+    NodeText: Berry
+    Position: {x: 506, y: 542.96}
+    Sprite: {fileID: 21300000, guid: 71f042da13d2c420795cfa0a9d8f7bc9, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 

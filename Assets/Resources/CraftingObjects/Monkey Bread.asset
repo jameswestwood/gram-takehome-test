@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b20760b2c12446f89a1160103f53684, type: 3}
+  m_Name: Monkey Bread
+  m_EditorClassIdentifier: 
+  MainNodeData:
+    NodeGUID: 513575ce-ecfb-4258-b688-b7b00a1ae3de
+    NodeText: Monkey Bread
+    Position: {x: 9.99999, y: 30.000002}
+    Sprite: {fileID: 21300000, guid: 632531e293f564087a0c126a9d529370, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  NodeLinks:
+  - BaseNodeGUID: 513575ce-ecfb-4258-b688-b7b00a1ae3de
+    PortName: Ingredient 1
+    TargetNodeGUID: 7d973a42-912a-4a1d-ab2c-1ffd1879de82
+    Count: 7
+  - BaseNodeGUID: 513575ce-ecfb-4258-b688-b7b00a1ae3de
+    PortName: Ingredient 2
+    TargetNodeGUID: baefab38-a911-46a4-9116-da2e96001cf3
+    Count: 5
+  - BaseNodeGUID: 513575ce-ecfb-4258-b688-b7b00a1ae3de
+    PortName: Ingredient 3
+    TargetNodeGUID: 6619a6f3-fbfd-4ebe-bc60-ea3f5751989e
+    Count: 11
+  - BaseNodeGUID: 513575ce-ecfb-4258-b688-b7b00a1ae3de
+    PortName: Ingredient 4
+    TargetNodeGUID: 48328d15-49d0-4f30-99f1-0f3139ce9ad3
+    Count: 8
+  NodeData:
+  - NodeGUID: 513575ce-ecfb-4258-b688-b7b00a1ae3de
+    NodeText: Monkey Bread
+    Position: {x: 9.99999, y: 30.000002}
+    Sprite: {fileID: 21300000, guid: 632531e293f564087a0c126a9d529370, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  - NodeGUID: 7d973a42-912a-4a1d-ab2c-1ffd1879de82
+    NodeText: Flour
+    Position: {x: 487, y: 324}
+    Sprite: {fileID: 21300000, guid: 32d35464e701b4056856ae9805a0718a, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  - NodeGUID: baefab38-a911-46a4-9116-da2e96001cf3
+    NodeText: Maple Sryup
+    Position: {x: 492.92, y: 107.44}
+    Sprite: {fileID: 21300000, guid: fdb4b64ac50574813b30212db2775fe0, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  - NodeGUID: 6619a6f3-fbfd-4ebe-bc60-ea3f5751989e
+    NodeText: Cinnamon
+    Position: {x: 247.27, y: 345.96753}
+    Sprite: {fileID: 21300000, guid: 5b39e94a998c744fc95366426b432722, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  - NodeGUID: 48328d15-49d0-4f30-99f1-0f3139ce9ad3
+    NodeText: Brazil Nut
+    Position: {x: 448, y: 491.96002}
+    Sprite: {fileID: 21300000, guid: 362753feb15ec4d3086ee1c59bce6020, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 

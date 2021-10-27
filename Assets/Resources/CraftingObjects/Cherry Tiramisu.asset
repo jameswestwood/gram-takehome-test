@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b20760b2c12446f89a1160103f53684, type: 3}
+  m_Name: Cherry Tiramisu
+  m_EditorClassIdentifier: 
+  MainNodeData:
+    NodeGUID: 8115192d-b368-4340-acde-029ad86141b4
+    NodeText: Cherry Tiramisu
+    Position: {x: 9.99999, y: 30.000002}
+    Sprite: {fileID: 21300000, guid: c05fc657bd13649998266deb2ccb252a, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  NodeLinks:
+  - BaseNodeGUID: 8115192d-b368-4340-acde-029ad86141b4
+    PortName: Ingredient 1
+    TargetNodeGUID: a32a0f31-7d42-4a73-b2f8-452bd0e55b2d
+    Count: 7
+  - BaseNodeGUID: 8115192d-b368-4340-acde-029ad86141b4
+    PortName: Ingredient 2
+    TargetNodeGUID: 800109f5-4d6f-4efe-a295-47cbd4913488
+    Count: 5
+  - BaseNodeGUID: 8115192d-b368-4340-acde-029ad86141b4
+    PortName: Ingredient 3
+    TargetNodeGUID: fa38b7a2-9692-411d-8152-0b5ada3b7d3b
+    Count: 10
+  - BaseNodeGUID: 8115192d-b368-4340-acde-029ad86141b4
+    PortName: Ingredient 4
+    TargetNodeGUID: a0d8c711-e76e-4953-ab01-96f189c430b6
+    Count: 8
+  NodeData:
+  - NodeGUID: 8115192d-b368-4340-acde-029ad86141b4
+    NodeText: Cherry Tiramisu
+    Position: {x: 9.99999, y: 30.000002}
+    Sprite: {fileID: 21300000, guid: c05fc657bd13649998266deb2ccb252a, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  - NodeGUID: a32a0f31-7d42-4a73-b2f8-452bd0e55b2d
+    NodeText: Maple Sugar
+    Position: {x: 457, y: 183}
+    Sprite: {fileID: 21300000, guid: f49c9aba85dd94c2486c14e0292def22, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  - NodeGUID: 800109f5-4d6f-4efe-a295-47cbd4913488
+    NodeText: Cheese
+    Position: {x: 447.8, y: 27}
+    Sprite: {fileID: 21300000, guid: 5ac90aac8b33049999e40e2cf41d5af4, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  - NodeGUID: fa38b7a2-9692-411d-8152-0b5ada3b7d3b
+    NodeText: Cherry
+    Position: {x: 451.00003, y: 338}
+    Sprite: {fileID: 21300000, guid: e46107c87fc754a1a99dab02d16b25a8, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  - NodeGUID: a0d8c711-e76e-4953-ab01-96f189c430b6
+    NodeText: Coffee
+    Position: {x: 455, y: 491.28}
+    Sprite: {fileID: 21300000, guid: 6d3c3394bbf3b467eb8699a48bba0de0, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 

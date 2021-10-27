@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b20760b2c12446f89a1160103f53684, type: 3}
+  m_Name: Maple Sryup
+  m_EditorClassIdentifier: 
+  MainNodeData:
+    NodeGUID: baefab38-a911-46a4-9116-da2e96001cf3
+    NodeText: Maple Sryup
+    Position: {x: 492.92, y: 107.44}
+    Sprite: {fileID: 21300000, guid: fdb4b64ac50574813b30212db2775fe0, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  NodeLinks: []
+  NodeData:
+  - NodeGUID: baefab38-a911-46a4-9116-da2e96001cf3
+    NodeText: Maple Sryup
+    Position: {x: 492.92, y: 107.44}
+    Sprite: {fileID: 21300000, guid: fdb4b64ac50574813b30212db2775fe0, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 

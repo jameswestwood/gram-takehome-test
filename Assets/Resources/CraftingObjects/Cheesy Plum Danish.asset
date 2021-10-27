@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b20760b2c12446f89a1160103f53684, type: 3}
+  m_Name: Cheesy Plum Danish
+  m_EditorClassIdentifier: 
+  MainNodeData:
+    NodeGUID: bf8584e2-8054-419f-affb-669dd0fb5a22
+    NodeText: Cheesy Plum Danish
+    Position: {x: 10, y: 29}
+    Sprite: {fileID: 21300000, guid: 591f158d137c842ca8c483e73afdfb4d, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  NodeLinks:
+  - BaseNodeGUID: bf8584e2-8054-419f-affb-669dd0fb5a22
+    PortName: Ingredient 1
+    TargetNodeGUID: 7d973a42-912a-4a1d-ab2c-1ffd1879de82
+    Count: 9
+  - BaseNodeGUID: bf8584e2-8054-419f-affb-669dd0fb5a22
+    PortName: Ingredient 2
+    TargetNodeGUID: 800109f5-4d6f-4efe-a295-47cbd4913488
+    Count: 6
+  - BaseNodeGUID: bf8584e2-8054-419f-affb-669dd0fb5a22
+    PortName: Ingredient 3
+    TargetNodeGUID: baefab38-a911-46a4-9116-da2e96001cf3
+    Count: 4
+  - BaseNodeGUID: bf8584e2-8054-419f-affb-669dd0fb5a22
+    PortName: Ingredient 4
+    TargetNodeGUID: 0ddd92a4-8813-45c1-bdcb-0fb938877bb0
+    Count: 14
+  - BaseNodeGUID: bf8584e2-8054-419f-affb-669dd0fb5a22
+    PortName: Ingredient 5
+    TargetNodeGUID: 57fd1553-effd-48db-a616-bdd7d1daaa49
+    Count: 10
+  NodeData:
+  - NodeGUID: bf8584e2-8054-419f-affb-669dd0fb5a22
+    NodeText: Cheesy Plum Danish
+    Position: {x: 10, y: 29}
+    Sprite: {fileID: 21300000, guid: 591f158d137c842ca8c483e73afdfb4d, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  - NodeGUID: 7d973a42-912a-4a1d-ab2c-1ffd1879de82
+    NodeText: Flour
+    Position: {x: 487, y: 324}
+    Sprite: {fileID: 21300000, guid: 32d35464e701b4056856ae9805a0718a, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  - NodeGUID: 800109f5-4d6f-4efe-a295-47cbd4913488
+    NodeText: Cheese
+    Position: {x: 447.8, y: 27}
+    Sprite: {fileID: 21300000, guid: 5ac90aac8b33049999e40e2cf41d5af4, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  - NodeGUID: baefab38-a911-46a4-9116-da2e96001cf3
+    NodeText: Maple Sryup
+    Position: {x: 492.92, y: 107.44}
+    Sprite: {fileID: 21300000, guid: fdb4b64ac50574813b30212db2775fe0, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  - NodeGUID: 0ddd92a4-8813-45c1-bdcb-0fb938877bb0
+    NodeText: Plum
+    Position: {x: 470.28, y: 495.79996}
+    Sprite: {fileID: 21300000, guid: 3b8e1a26e0be846d082c4d882839b5a8, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 
+  - NodeGUID: 57fd1553-effd-48db-a616-bdd7d1daaa49
+    NodeText: Macadamia Nut
+    Position: {x: 657.82, y: 520.50226}
+    Sprite: {fileID: 21300000, guid: b4acb1d85232a4cceb8f734c5f94db68, type: 3}
+    Type: 0
+    Exceptions: []
+    DesiredType: 0
+    FlavorText: 

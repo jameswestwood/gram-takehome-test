@@ -8,7 +8,6 @@ public class DishEffect : BaseEffect
     public override void ApplyEffect()
     {
         // repopulate
-        var game = FindObjectOfType<Game>();
-        game.ReloadLevel();
+        Game.Instance.ReloadLevel();
     }
 }

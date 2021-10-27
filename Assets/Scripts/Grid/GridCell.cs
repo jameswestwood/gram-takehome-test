@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using GramGames.CraftingSystem.DataContainers;
+﻿using GramGames.CraftingSystem.DataContainers;
 using UnityEngine;
 
 public class GridCell : MonoBehaviour
@@ -16,9 +15,8 @@ public class GridCell : MonoBehaviour
     public void SpawnItem(NodeContainer item)
     {
 	    _handler.ClearCell(this);
-
-		var game = FindObjectOfType<Game>();
-		var obj = Instantiate(game.DraggableObjectPrefab);
+        
+		var obj = Instantiate(Game.Instance.DraggableObjectPrefab);
 	    obj.Configure(item, this);
     }
     

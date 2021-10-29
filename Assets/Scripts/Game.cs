@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Game : MonoBehaviour
 {
@@ -56,5 +57,10 @@ public class Game : MonoBehaviour
 			var item = ItemUtils.ItemsMap[ingredient.NodeGUID];
 			cell.SpawnItem(item);
 		}
+	}
+	
+	public void LoadMenu()
+	{
+		SceneManager.LoadScene("Menu");
 	}
 }

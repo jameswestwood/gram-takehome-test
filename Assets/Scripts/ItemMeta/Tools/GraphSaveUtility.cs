@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿#if UNITY_EDITOR
+
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using GramGames.CraftingSystem.DataContainers;
@@ -431,3 +433,4 @@ namespace GramGames.CraftingSystem.Editor
         }
     }
 }
+#endif

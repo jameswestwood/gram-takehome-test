@@ -1,7 +1,11 @@
-﻿using UnityEditor.Experimental.GraphView;
+﻿#if UNITY_EDITOR
+
+using UnityEditor.Experimental.GraphView;
 
 public class GraphNode : Node
 {
     public string GUID;
     public string NodeText;
 }
+
+#endif

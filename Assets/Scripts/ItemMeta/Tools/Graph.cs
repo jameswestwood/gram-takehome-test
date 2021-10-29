@@ -1,4 +1,6 @@
-﻿using GramGames.CraftingSystem.DataContainers;
+﻿#if UNITY_EDITOR
+
+using GramGames.CraftingSystem.DataContainers;
 using GramGames.CraftingSystem.Editor;
 using UnityEditor;
 using UnityEditor.Experimental.GraphView;
@@ -139,5 +141,5 @@ public class Graph : EditorWindow
 		AssetDatabase.SaveAssets();
 		AssetDatabase.Refresh();
 	}
-
 }
+#endif

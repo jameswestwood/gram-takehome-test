@@ -16,8 +16,11 @@ public class GridCell : MonoBehaviour
     {
 	    _handler.ClearCell(this);
         
-		var obj = Instantiate(Game.Instance.DraggableObjectPrefab);
-	    obj.Configure(item, this);
+        if (Random.value < Random.Range(GameplaySettings.itemDensity[0], GameplaySettings.itemDensity[1]))
+        {
+            var obj = Instantiate(Game.Instance.DraggableObjectPrefab);
+            obj.Configure(item, this);
+        }
     }
     
     public void SetHandler(GridHandler handler)

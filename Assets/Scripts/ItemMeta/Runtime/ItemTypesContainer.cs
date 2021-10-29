@@ -13,9 +13,11 @@ public class ItemTypesContainer : ScriptableObject
 	public void GenerateEnum()
 	{
 		string enumName = "CraftableItemTypes";
-
+		
+		#if UNITY_EDITOR
 		if (!AssetDatabase.IsValidFolder("Assets/Scripts/Enums"))
 			AssetDatabase.CreateFolder("Assets/Scripts", "Enums");
+		#endif
 
 		string filePathAndName = "Assets/Scripts/Enums/" + enumName + ".cs";
 
@@ -29,6 +31,9 @@ public class ItemTypesContainer : ScriptableObject
 			}
 			streamWriter.WriteLine("}");
 		}
+		
+		#if UNITY_EDITOR
 		AssetDatabase.Refresh();
+		#endif
 	}
 }

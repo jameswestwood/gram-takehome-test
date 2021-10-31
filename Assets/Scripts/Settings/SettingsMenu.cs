@@ -16,6 +16,8 @@ public class SettingsMenu : MonoBehaviour
     // set to default position
     _rectTransform.offsetMin = new Vector2(0, 0);
     _rectTransform.offsetMax = new Vector2(0, 0);
+    _rectTransform.anchorMin = new Vector2(0, 0);
+    _rectTransform.anchorMax = new Vector2(1, 1);
     
     Toggle(false);
 

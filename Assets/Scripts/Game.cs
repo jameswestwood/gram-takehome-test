@@ -22,7 +22,7 @@ public class Game : MonoBehaviour
 			false; // https://issuetracker.unity3d.com/issues/game-is-not-built-in-windowed-mode-when-changing-the-build-settings-from-exclusive-fullscreen
 
 		// load all item definitions
-		ItemUtils.InitializeMap();
+		if (!ItemUtils.Initialised) ItemUtils.InitializeMap();
 	}
 
 	private void Start()

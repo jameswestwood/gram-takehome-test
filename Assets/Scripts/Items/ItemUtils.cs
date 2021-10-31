@@ -9,6 +9,8 @@ public static class ItemUtils
 	public static Dictionary<string, NodeContainer> ItemsMap = new Dictionary<string, NodeContainer>();
 	public static Dictionary<string, HashSet<NodeData>> RecipeMap = new Dictionary<string, HashSet<NodeData>>();
 
+	public static bool Initialised => ItemsMap.Count > 0;
+	
 	public static void InitializeMap()
 	{
 		var nodes = Resources.LoadAll<NodeContainer>("CraftingObjects");
